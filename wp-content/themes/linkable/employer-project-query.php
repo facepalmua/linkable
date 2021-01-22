@@ -9,7 +9,6 @@ $employer_current_project_query = new WP_Query(
 										'author'           => $user_ID,
 										'suppress_filters' => true,
 										'orderby'          => 'date',
-										'test'
 										'order'            => 'DESC',
 										'paged'			   => $paged
 									)
