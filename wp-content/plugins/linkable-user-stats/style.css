@@ -1,0 +1,151 @@
+.dashboard-stat-section h2{
+	color:#1aad4b;
+}
+
+.intro-video-wrap {
+    margin-top: -60px;
+    background: #1aad4b;
+    color:  #ffffff;
+    padding-bottom: 30px;
+    position: relative;
+    margin-bottom: 60px;
+    top: 0;
+}
+
+.intro-video-wrap a:hover {
+	text-decoration: underline;
+}
+
+.intro-video-wrap.closed {
+	top: -15px;
+}
+
+.intro-video-wrap.closed .show-hide-wrap {
+	display: none;
+}
+
+.show-hide-dash-intro {
+	position: absolute;
+	bottom: -40px;
+	right: 0;
+	background: none;
+	color: #4d4d4e;
+	cursor: pointer;
+}
+
+.show-hide-dash-intro i {
+    background:  #4d4d4e;
+    color: #ffffff;
+    padding: 10px 15px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+body .intro-video-wrap h1 {
+    color:  #ffffff;
+    padding-top: 40px;
+    margin-top: 0;
+}
+
+.intro-video-wrap a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.page-template-page-dashboard-new .main-dashboard-content {
+	padding-left: 40px;
+    padding-right: 40px;
+}
+
+.main-dashboard-content.dashboard-landing p.stat-intro,
+.main-dashboard-content.dashboard-landing .quick-tip p {
+	text-align: left;
+	width: 100%;
+	margin: 0;
+	max-width: 100%;
+}
+
+.row.dashboard-stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.row.dashboard-stats:before,
+.row.dashboard-stats:after {
+	display: none;
+}
+
+.row.dashboard-stats .col {
+    flex-basis: 22%;
+    text-align: center;
+    background: white;
+    padding: 30px;
+    font-size: 14px;
+        box-shadow: 5px 5px 5px rgba(0,0,0,.2);
+    -moz-box-shadow: 5px 5px 5px rgba(0,0,0,.2);
+    -webkit-box-shadow: 5px 5px 5px rgba(0,0,0,.2);
+}
+
+.dashboard-stats .col > .num {
+	font-size: 50px;
+	color:#1aad4b;
+	font-weight: bold;
+}
+
+.quick-tip {
+	background: #ffffff;
+	box-shadow: 5px 5px 5px rgba(0,0,0,.2);
+    -moz-box-shadow: 5px 5px 5px rgba(0,0,0,.2);
+    -webkit-box-shadow: 5px 5px 5px rgba(0,0,0,.2);
+    padding: 30px;
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 1350px) {
+	.dashboard-stats .col > .num {
+		font-size: 40px;
+	}
+	
+	.row.dashboard-stats {
+		flex-wrap: wrap;
+	}
+	
+	.row.dashboard-stats .col {
+	    flex: 1 0 auto;
+	    margin-top: 20px;
+	    margin-right: 10px;
+	    margin-left: 10px;
+	    }
+}
+
+@media screen and (max-width: 768px) {
+	.intro-video-wrap {
+		margin-top: -20px;
+	}
+	.row.dashboard-stats {
+		margin-top: 10px;
+	}
+
+	body.page-template-page-dashboard-new .main-dashboard-content {
+		padding-top: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.show-hide-wrap {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	}
+	
+@media screen and (max-width: 550px) {
+	.row.dashboard-stats .col {
+		margin-right: 0;
+		margin-left: 0;
+	}
+	
+	.quick-tip {
+		margin-top: 20px;
+	}
+	}

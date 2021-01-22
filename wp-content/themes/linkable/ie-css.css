@@ -1,0 +1,242 @@
+.fre-table-row.accepted-app,
+.fre-table-row.active-app,
+.fre-table-row.pending-completion,
+.fre-table-row.cancelled-app,
+.fre-table-row.no-app {
+    padding: 0 !important;
+}
+.fre-table-row.accepted-app .project-details-head span.green,
+.fre-table-row.active-app .project-details-head span.green,
+.fre-table-row.pending-completion .project-details-head span.green,
+.fre-table-row.cancelled-app .project-details-head span.green,
+.project-info-single-template .project-details-head span.green,
+.fre-table-row.no-app .project-details-head span.green,
+.fre-table-row.deleted .project-details-head span.green,
+.cm-project-post-review .project-details-head span.green {
+    margin-top: 7px !important;
+    display: block;
+    font-size: 18px;
+    /*font-weight: bold;*/
+}
+.project-info-single-template h3.my-proj-title {
+    padding-bottom: 0 !important;
+}
+.fre-table-row.accepted-app .col-section,
+.fre-table-row.active-app .col-section,
+.fre-table-row.pending-completion .col-section,
+.fre-table-row.cancelled-app .col-section,
+.project-info-single-template .col-section,
+.fre-table-row.no-app .col-section {
+    text-align: right;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+}
+.la-cm-project.fre-table-row.deleted .col-section,
+.cm-project-post-review .project-details-head .col-section {
+    text-align: right;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.7;
+}
+.fre-table-row.accepted-app.la-cm-project .col-section,
+.fre-table-row.accepted-app.la-cm-project .col-section .project-header,
+.single-project .ie_project_workroom .project-details-head .col-section {
+    font-size: 12px;
+}
+.single-project .ie-bid-box .final-link-text i {
+    margin-right: 8px;
+}
+.fre-table-row.accepted-app .project-footer-bar,
+.fre-table-row.active-app .project-footer-bar,
+.fre-table-row.pending-completion .project-footer-bar,
+.fre-table-row.cancelled-app .project-footer-bar,
+.fre-table-row.no-app .project-footer-bar,
+.fre-table-row.deleted .project-footer-bar {
+    justify-content: space-between;
+    background-color: #296c88;
+    padding: 5px 20px;
+    min-height: 60px;
+    margin-top: 20px;
+}
+
+.fre-table-row.no-app .project-footer-bar .project-status-bar.publish {
+    margin: 0;
+    padding: 0;
+}
+
+.fre-table-row.accepted-app .project-footer-bar .project-status-bar.publish,
+.fre-table-row.active-app .project-footer-bar .project-status-bar.publish,
+.fre-table-row.pending-completion .project-footer-bar .project-status-bar.publish,
+.fre-table-row.cancelled-app .project-footer-bar .project-status-bar.publish {
+    margin-top: 0;
+    background-color: #296c88;
+    padding: 0;
+}
+.fre-table-row.pending-completion .project-footer-bar,
+.fre-table-row.pending-completion .project-footer-bar .project-status-bar.publish {
+    background-color: #3b3b3b;
+}
+.fre-table-row.cancelled-app .project-footer-bar,
+.fre-table-row.cancelled-app .project-footer-bar .project-status-bar.publish {
+    background-color: #c05f3e;
+}
+
+.fre-table-row.accepted-app .project-footer-bar span.italic,
+.fre-table-row.active-app .project-footer-bar span.italic,
+.fre-table-row.pending-completion .project-footer-bar span.italic,
+.fre-table-row.cancelled-app .project-footer-bar span.italic,
+.fre-table-row.no-app .project-footer-bar span.italic {
+    font-size: 16px;
+    margin-right: 0;
+}
+
+.fre-table-row.accepted-app .project-footer-bar .owner-deletion,
+.fre-table-row.active-app .project-footer-bar .owner-deletion,
+.fre-table-row.pending-completion .project-footer-bar .owner-deletion,
+.fre-table-row.cancelled-app .project-footer-bar .owner-deletion,
+.fre-table-row.no-app .project-footer-bar .owner-deletion {
+    text-decoration: underline;
+    color: #fff !important;
+    font-weight: bold;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.fre-table-row.accepted-app .project-footer-bar .owner-deletion::before,
+.fre-table-row.active-app .project-footer-bar .owner-deletion::before,
+.fre-table-row.pending-completion .project-footer-bar .owner-deletion::before,
+.fre-table-row.cancelled-app .project-footer-bar .owner-deletion::before,
+.fre-table-row.no-app .project-footer-bar .owner-deletion::before {
+    display: none;
+}
+
+.fre-table-row.accepted-app .project-footer-bar a.workspace-button,
+.fre-table-row.active-app .project-footer-bar a.workspace-button,
+.fre-table-row.pending-completion .project-footer-bar a.workspace-button,
+.fre-table-row.cancelled-app .project-footer-bar a.workspace-button,
+.fre-table-row.no-app .project-footer-bar a.workspace-button,
+.fre-table-row.deleted .project-footer-bar a.workspace-button {
+    background-color: #1aad4b;
+    padding: 8px 11px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.fre-table-row.accepted-app .project-footer-bar a.workspace-button:hover,
+.fre-table-row.active-app .project-footer-bar a.workspace-button:hover,
+.fre-table-row.pending-completion .project-footer-bar a.workspace-button:hover,
+.fre-table-row.cancelled-app .project-footer-bar a.workspace-button:hover,
+.fre-table-row.no-app .project-footer-bar a.workspace-button:hover {
+    background-color: #108c3a;
+}
+.project-detail-box.bid-box.accept,
+.project-detail-box.bid-box.pending-completion,
+.project-detail-box.bid-box.cancelled {
+    padding: 0 20px;
+}
+
+.project-detail-box.bid-box.accept .application-status,
+.project-detail-box.bid-box.complete .application-status,
+.project-detail-box.bid-box.pending-completion .application-status,
+.project-detail-box.bid-box.cancelled .application-status {
+    margin-left: -20px;
+    margin-right: -20px;
+    border-radius: 0;
+    padding: 20px;
+}
+#project-detail-bidding .application-status.cancelled {
+    background: #c05f3e !important;
+}
+ul.fre-project-list.project-list-container.facetwp-template .project-footer-bar {
+    margin-left: -20px;
+    margin-right: -20px;
+    width: calc(100% + 40px);
+}
+/* Rate Content Author */
+#gform_fields_12 #field_12_1 .ginput_container_radio > .gfield_radio{
+    display: none;
+}
+.la_editable_rating {
+    display: inline-block;
+    margin-right: 12px;
+}
+.la_editable_rating i.fa {
+    color: #1aad4b;
+}
+span.la_editable_rating_score {
+    font-size: 14px;
+    color: #333333;
+}
+
+/* single bid "You've marked this project as complete" strong title*/
+.single-bid .fre-project-detail-wrap > .mark-complete.completed.iem_mark-complete > strong {
+    margin-left: 0px;
+}
+
+/*============== Cm Project Preview =================*/
+.cm-project-post-review .project-details-head .project-description {
+    margin-top: 0;
+}
+.cm-project-post-review .project-details-head .col-section span {
+    display: block;
+}
+.cm-project-post-review .project-top-bar {
+    flex-wrap: wrap;
+}
+.cm-project-post-review .project-top-bar > div {
+    width: 100%;
+    padding-bottom: 0;
+}
+/*.cm-project-post-review .project-description.backlink-on {*/
+/*    margin-bottom: 10px;*/
+/*}*/
+.gformRepeater_3 legend.gfield_label {
+    border-bottom: 0;
+    margin-bottom: 0;
+	line-height: 1.3em !important;
+}
+.gformRepeater_3 label.gfield_label {
+    display: none !important;
+}
+.gformRepeater_3 .ginput_container.ginput_container_text,
+.gformRepeater_3 div.gfield_repeater_cell{
+    margin-top: 0 !important;
+}
+.gformRepeater_3 button.add_repeater_item.add_repeater_item_text,
+.gformRepeater_3 button.remove_repeater_item.remove_repeater_item_text{
+    border: 0 none;
+    background-color: transparent;
+    font-size: 14px;
+    color: #4aae4b;
+    font-weight: bold;
+}
+.gformRepeater_3 button.remove_repeater_item.remove_repeater_item_text{
+    color: #ff0000;
+}
+.gformRepeater_3 .gfield_repeater .gfield_repeater_items .gfield_repeater_item:not(:last-child) {
+    border: 0 none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.gformRepeater_3 .gfield_repeater_buttons {
+    padding-top: 5px;
+}
+.gformRepeater_3 input[type="text"] {
+    display: block;
+    width: 100%;
+}
+.multiple-click-wrapper {
+    max-width: 400px;
+}
+.url_validate_message.validation_message {
+    font-size: 13px;
+    padding: 10px 0 0;
+}

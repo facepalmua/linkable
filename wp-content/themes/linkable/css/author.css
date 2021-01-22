@@ -1,0 +1,495 @@
+/** Author Page Css */
+.la-section {
+    position: relative;
+}
+
+.la-container {
+    max-width: 1585px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.la-row {
+    display: flex;
+    position: relative;
+}
+#main-content {
+    margin-top: 30px;
+}
+/*============ Home Page Banner ==============*/
+.author-page-banner {
+    background-position: 0% 70%;
+    background-repeat: no-repeat;
+    background-size: 115%;
+}
+.author-page-banner .la-container {
+    z-index: 2;
+}
+
+.author-page-banner .la-row {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 670px;
+}
+.author-page-banner .banner-content h1 {
+    font-size: 48px;
+    font-weight: 300;
+    margin: 0 0 25px;
+}
+
+.author-page-banner .banner-content .subtitle {
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 300;
+    max-width: 865px;
+    margin-bottom: 35px;
+}
+
+.author-page-banner .banner-content .banner-btn {
+    background-color: #1aad4b;
+    color: #fff;
+    display: inline-block;
+    border-radius: 6px;
+    font-size: 22px;
+    font-weight: 300;
+    padding: 15px 67px;
+    transition: all .3s ease-in-out;
+}
+.author-page-banner .banner-content .banner-btn span {
+    margin-left: 5px;
+}
+
+.author-page-banner .banner-content .banner-btn:hover {
+    background-color: #108c3a;
+}
+/*========== How it works steps ===========*/
+.how-it-works-steps {
+    background-color: #4e4e4f;
+    padding: 90px 0;
+}
+.how-it-works-steps h2.section-title {
+    font-size: 32px;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    margin: 0 0 55px;
+}
+.steps-with-count {
+    margin-left: -30px;
+    margin-right: -30px;
+    margin: auto;
+}
+.step-with-count {
+    text-align: center;
+    width: calc(33.33% - 60px);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.step-with-count span.top-count {
+    font-size: 26px;
+    background-color: #1aad4b;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: auto;
+}
+.step-with-count h4 {
+    font-size: 26px;
+    color: #1aad4b;
+    font-weight: 300;
+    margin: 30px 0;
+}
+.step-with-count .details {
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+    font-weight: 300;
+}
+/*======== How much can you earn =============*/
+.how-much-earn {
+    padding: 90px 0;
+}
+.how-much-earn .la-container {
+    text-align: center;
+}
+.how-much-earn .section-title {
+    font-size: 32px;
+    font-weight: 300;
+    color: #1aad4b;
+    margin: 0 0 25px;
+}
+.how-much-earn p.subtitle {
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 300;
+    margin-bottom: 90px;
+}
+/* .earn-prices .earn-price {
+    width: 33.33%;
+} */
+.earn-price.earn-price-1 {
+    width: 225px;
+}
+.earn-price.earn-price-3 {
+    width: 280px;
+}
+.earn-price.earn-price-2 {
+    width: calc(100% - 505px);
+}
+.earn-prices .earn-price h4 {
+    font-size: 100px;
+    font-weight: 400;
+    margin: 0;
+    color: #1aad4b;
+}
+.earn-prices .earn-price p {
+    font-size: 18px;
+    color: #1aad4b;
+    font-weight: 300;
+    margin: 0;
+}
+.earn-prices .earn-price-2 h4 {
+    color: #4e4e4f;
+    font-weight: bold;
+}
+.earn-prices .earn-price-2 p {
+    color: #4e4e4f;
+}
+.how-much-earn .la-container:nth-child(2) {
+    max-width: 1410px;
+}
+/*============ How It Works Author ===========*/
+.how-it-works-steps.author-hiws {
+    background-color: #F1F1F1;
+}
+.author-hiws h2.section-title {
+    color: #2e2e2e;
+}
+.author-hiws .step-with-count .details {
+    color: #2E2E2E;
+}
+.author-hiws .step-with-count .details span {
+    color: #1AAD4B;
+}
+/*============ Sign Up ===========*/
+.sign-up-section {
+    text-align: center;
+    padding: 90px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sign-up-section .section-title {
+    font-size: 36px;
+    color: #fff;
+    font-weight: 300;
+    margin: 0;
+}
+.sign-up-section .subtitle {
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 26px;
+    margin: 20px 0 30px;
+}
+.sign-up-section .btn-light.la-btn {
+    background-color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    padding: 16px 40px;
+    min-width: 260px;
+    text-align: center;
+    border-radius: 6px;
+    transition: all .3s ease-in-out;
+}
+.sign-up-section .btn-light.la-btn:hover {
+    background-color: #4d4d4d;
+    color: #fff;
+}
+
+/*========== Responsive =============*/
+@media only screen and (min-width: 981px) and (max-width: 1180px) {
+    .earn-prices .earn-price h4 {
+        font-size: 70px;
+    }
+    .earn-price.earn-price-2 h4::before, 
+    .earn-price.earn-price-2 h4::after{
+        width: 24% !important;
+    }
+    .author-page-banner {
+        background-position: 34% 90%;
+        background-repeat: no-repeat;
+        background-size: 140%;
+    }
+    .earn-prices .earn-price-2 p {
+        margin: auto;
+        max-width: 250px;
+    }
+    .earn-price.earn-price-2 h4::before, .earn-price.earn-price-2 h4::after {
+        height: 1px !important;
+    }
+}
+@media only screen and (min-width: 1181px) and (max-width: 1280px) {
+    .earn-prices .earn-price h4 {
+        font-size: 80px;
+    }
+    .earn-price.earn-price-2 h4::before, 
+    .earn-price.earn-price-2 h4::after{
+        width: 29% !important;
+    }
+    .author-page-banner {
+        background-position: 30% 70%;
+        background-size: 108%;
+    }
+}
+@media only screen and (min-width: 1281px) and (max-width: 1366px) {
+    .earn-price.earn-price-2 h4::before, 
+    .earn-price.earn-price-2 h4::after{
+        width: 30% !important;
+        height: 1px !important;
+    }
+    .earn-prices .earn-price h4 {
+        font-size: 90px;
+    }
+}
+@media only screen and (min-width: 1367px) and (max-width: 1600px) {
+    .earn-price.earn-price-2 h4::before, 
+    .earn-price.earn-price-2 h4::after{
+        width: 31% !important;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .earn-price.earn-price-2 h4 {
+        position: relative;
+    }
+    .earn-price.earn-price-2 h4::before, .earn-price.earn-price-2 h4::after {
+        position: absolute;
+        content: "";
+        height: 0.5px;
+        width: 33%;
+        background-color: #1AAD4B;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .earn-price.earn-price-2 h4::before {
+        left: 20px;
+    }
+    .earn-price.earn-price-2 h4::after {
+        right: 20px;
+    }
+    .earn-price.earn-price-1 h4, .earn-price.earn-price-3 h4 {
+        position: relative;
+    }
+    .earn-price.earn-price-1 h4::after, .earn-price.earn-price-3 h4::after {
+        position: absolute;
+        content: "";
+        height: 100%;
+        width: 1px;
+        background-color: #1AAD4B;
+        top: 0;
+    }
+    .earn-price.earn-price-3 h4::after {
+        left: -20px;
+    }
+    .earn-price.earn-price-1 h4::after {
+        right: -20px;
+    }
+    div#author-steps-with-count {
+        display: flex;
+    }
+}
+@media only screen and (max-width: 980px) {
+    .author-page-banner {
+        background-position: 30% 80%;
+        background-repeat: no-repeat;
+        background-size: 170%;
+    }
+    .author-page-banner .banner-content .subtitle {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .how-it-works-steps, 
+    .how-much-earn, 
+    .how-it-works-steps.author-hiws, 
+    .sign-up-section {
+        padding: 70px 0;
+    }
+    .how-it-works-steps h2.section-title {
+        line-height: 48px;
+    }
+    .how-it-works-steps h2.section-title {
+        margin: 0 0 40px;
+    }
+    .earn-price.earn-price-2 p {
+        margin: auto;
+        max-width: 250px;
+    }
+    .earn-price.earn-price-2 {
+        width: calc(100% - 335px);
+    }
+    .earn-price.earn-price-1 {
+        width: 145px;
+    }
+    .earn-price.earn-price-3 {
+        width: 190px;
+    }
+    .earn-price.earn-price-1 h4::after {
+        right: -10px;
+    }
+    .earn-price.earn-price-2 h4::before {
+        left: 10px;
+    }
+    .earn-price.earn-price-2 h4::after {
+        right: 0px;
+    }
+    .earn-prices .earn-price h4 {
+        font-size: 60px;
+    }
+    .earn-price.earn-price-3 h4::after {
+        left: 0px;
+    }
+    .earn-price.earn-price-2 h4::before, .earn-price.earn-price-2 h4::after {
+        width: 28%;
+    }
+    .how-much-earn p.subtitle {
+        margin-bottom: 50px;
+    }
+    div#author-steps-with-count {
+        margin: auto;
+        justify-content: space-between;
+    }
+    .steps-with-count {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    .step-with-count {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: calc(33.33% - 20px);
+    }
+    .step-with-count h4 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .author-page-banner .banner-content h1 {
+        font-size: 36px;
+    }
+    .author-page-banner .banner-content .subtitle {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .author-page-banner .la-row {
+        min-height: 490px;
+    }
+    .author-page-banner {
+        background-position: 0% 97%;
+        background-image: url(/wp-content/uploads/money-line-art-copy.png), linear-gradient(230deg, rgba(234, 234, 234, 0) 30%, rgba(117, 117, 117, .5) 130%) !important;
+        background-size: 100%;
+    }
+    .how-it-works-steps, 
+    .how-much-earn, 
+    .how-it-works-steps.author-hiws, 
+    .sign-up-section {
+        padding: 50px 0;
+    }
+    .how-it-works-steps h2.section-title {
+        line-height: 36px;
+        font-size: 24px;
+    }
+    .steps-with-count {
+        flex-wrap: wrap;
+    }
+    .step-with-count {
+        width: 100%;
+        padding-bottom: 30px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .step-with-count:not(:last-child) {
+        margin-bottom: 40px;
+    }
+    .step-with-count .details {
+        max-width: 500px;
+        margin: auto;
+    }
+    .earn-prices .earn-price {
+        width: 100%;
+        position: relative;
+    }
+    .earn-prices {
+        flex-wrap: wrap;
+    }
+    .earn-prices .earn-price:not(:last-child) {
+        margin-bottom: 100px;
+    }
+    .earn-price.earn-price-1::before, .earn-price.earn-price-3::before {
+        position: absolute;
+        content: "";
+        width: 45px;
+        height: 1px;
+        background-color: #1AAD4B;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -10px;
+    }
+    .earn-price.earn-price-1::after, .earn-price.earn-price-3::after {
+        position: absolute;
+        content: "";
+        height: 80px;
+        width: 1px;
+        background-color: #1AAD4B;
+        top: 100px;
+    }
+    .earn-price.earn-price-3::before {
+        top: -10px;
+    }
+    .earn-price.earn-price-3::after {
+        top: -90px;
+    }
+    .step-with-count h4 {
+        font-size: 22px;
+    }
+    #author-steps-with-count .owl-dots {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #author-steps-with-count .owl-dots .owl-dot.active {
+        background-color: #1AAD4B;
+    }
+    #author-steps-with-count .owl-dots .owl-dot {
+        height: 10px;
+        width: 10px;
+        background-color: #fff;
+        border-radius: 50%;
+        margin: 0 3px;
+        outline: none;
+    }
+    .how-much-earn .section-title {
+        font-size: 24px;
+    }
+    .how-much-earn p.subtitle {
+        font-size: 18px;
+    }
+    .earn-prices .earn-price p {
+        font-size: 16px;
+    }
+    .sign-up-section .section-title {
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #main-content {
+        margin-top: 0;
+    }
+}

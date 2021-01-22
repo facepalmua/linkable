@@ -1,0 +1,44 @@
+{
+    "key": "group_5eee5b9b3ce92",
+    "title": "Assign Bid Author",
+    "fields": [
+        {
+            "key": "field_5eee5ba4335be",
+            "label": "Assign an Author for this bid",
+            "name": "assigned_author",
+            "type": "user",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "role": [
+                "freelancer"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "return_format": "id"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "bid"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1594849255
+}

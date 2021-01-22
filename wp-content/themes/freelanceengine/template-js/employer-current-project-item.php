@@ -1,0 +1,1 @@
+<script type="text/template" id="employer_current_project_template_js"></script>
