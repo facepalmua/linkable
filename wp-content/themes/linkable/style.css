@@ -317,13 +317,18 @@ html .page-id-5120 .block-page {
     top: 1.3px;
 }
 
+.page-id-8, .page-id-6, .page-id-543, .page-id-1068 {
+    background: #f6f6f6;
+}
+
 body .fre-authen-login,
 #loginform,
-.fre-authen-reset-pass {
+.fre-authen-reset-pass, .fre-authen-lost-pass, .fre-authen-reset-pass {
     margin-bottom: 50px;
     background: #FFF;
     margin: 0 auto;
-    padding: 40px 0px 40px 0px;
+    padding: 60px;
+    border-radius: 5px;
     width: 482px;
     max-width: 90%;
     height: auto;
@@ -333,7 +338,7 @@ body .fre-authen-login,
 }
 
 #resetpass_form {
-    padding: 40px 40px 40px 40px;
+    padding: 10px 40px 40px 40px;
 }
 
 #loginform h2 {
@@ -2141,6 +2146,8 @@ p.project-status-bar:nth-child(2) {
     color: #6d6d6e;
     margin-top: 0;
     margin-bottom: 25px;
+    font-weight: 200;
+    font-size: 26px;
 }
 
 .gform_wrapper {
@@ -2154,11 +2161,26 @@ p.project-status-bar:nth-child(2) {
 
 .page-id-6 .blog-content,
 .page-id-668 .blog-content {
-    margin: 70px auto 0 auto;
+    margin: 70px auto 70px auto;
     max-width: 800px;
     padding: 50px 120px;
-    box-shadow: 5px 5px 15px #eee;
-    margin-bottom: 100px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+}
+
+.gform_wrapper.gf_browser_chrome ul.gform_fields li.gfield div.ginput_complex span.ginput_left select, .gform_wrapper.gf_browser_chrome ul.gform_fields li.gfield div.ginput_complex span.ginput_right select, .gform_wrapper.gf_browser_chrome ul.gform_fields li.gfield select {
+    margin-left: 1px;
+    height: 50px;
+    border-radius: 5px;
+    padding-right: 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 13px;
+    padding-left: 11px;
 }
 
 
@@ -5215,6 +5237,11 @@ body .employer-info-edit > a:hover {
     border: none;
 }
 
+.fre-authen-footer p {
+    text-align: center;
+    margin-top: 30px;
+}
+
 .success-bg {
     background-color: #1aad4b;
 }
@@ -7556,9 +7583,13 @@ div#gform_wrapper_10 {
 }
 
 .page-template-page-login .fre-authen-wrapper {
-    padding-top: 92px;
+    padding-top: 140px;
     margin-left: 0px;
     margin-right: 0px;
+}
+
+.page-id-543 .fre-authen-lost-pass > h2 {
+    margin-bottom: 20px;
 }
 
 .page-id-543 .fre-authen-wrapper {
@@ -7698,3 +7729,11 @@ a.withdrawn_btn i {
 }
 
 /* end Footer redesign*/
+
+.la-container {
+    max-width: 1585px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
