@@ -479,6 +479,9 @@ function wpb_custom_new_menu() {
         array(
             'footer-nav-menu'    => __( 'Footer Nav Menu' ),
             'footer-social-menu' => __( 'Footer Social Menu' ),
+            'left-footer-menu' => __('Left footer menu'),
+            'center-footer-menu' => __('Center footer menu'),
+            'right-footer-menu' => __('Right footer menu'),
             // 'academy-header-menu' => __( 'Academy Header Menu' ),
             // 'academy-footer-menu' => __( 'Academy Footer Menu' ),
         )

@@ -2376,3 +2376,32 @@
 	    max-width: 100%!important;
 	}
 }
+
+
+/*footer redesign*/
+@media only screen and (max-width: 992px) {
+	.footer_menu--border {
+		padding-left: 15px;
+		border: none;
+		padding-bottom: 35px;
+		min-height: auto;
+	}
+
+	.footer_text {
+		position: relative;
+		padding-bottom: 25px;
+		margin-bottom: 30px;
+		margin-top: 20px;
+	}
+
+	.footer_text:after {
+		content: '';
+		height: 1px;
+		width: 152px;
+		background: #5F5F5F;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+}
+/* end footer redesign*/

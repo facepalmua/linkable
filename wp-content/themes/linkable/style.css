@@ -7636,3 +7636,65 @@ a.withdrawn_btn i {
   border-radius: 4px;
   text-align: center;
 }
+
+
+/*Footer redesign*/
+
+.footer_menu--border {
+    position: relative;
+    border-left: 1px solid #5F5F5F;
+    padding-left: 25px;
+    min-height: 165px;
+}
+
+.footer_copyright--section {
+    background: #3D3D3D;
+    padding: 24px 0;
+}
+
+.footer_text {
+    font-size: 16px;
+    color: #BBBBBB;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.footer_wrapper__left {
+    text-align: left !important;
+}
+
+.footer_menu--title {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 17px;
+    color: #fff;
+}
+
+.footer_menu--list {
+    font-size: 16px;
+    line-height: 30px;
+    list-style-type: none;
+}
+
+.footer_menu--list a {
+    color: #BBBBBB;
+    text-transform: capitalize;
+    -webkit-transition: .3s all;
+    -moz-transition: .3s all;
+    -ms-transition: .3s all;
+    -o-transition: .3s all;
+    transition: .3s all;
+}
+
+.footer_menu--list a:hover {
+    color: #1aad4b;
+}
+
+.text-copyright {
+    color: #9B9B9B;
+    font-size: 12px;
+    margin: 0;
+}
+
+/* end Footer redesign*/
