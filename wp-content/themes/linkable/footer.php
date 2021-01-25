@@ -70,6 +70,7 @@ if ( is_active_sidebar ( 'fre-footer-1' ) || is_active_sidebar ( 'fre-footer-2' 
             </div>
             <div class="col-lg-2 col-md-2 footer_menu--border">
                 <h6 class="footer_menu--title">COMPANY</h6>
+                
                 <?php wp_nav_menu( [
 	                'theme_location'  => 'left-footer-menu',
 	                'menu_class'      => 'footer_menu--list',
